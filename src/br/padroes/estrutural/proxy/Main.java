@@ -1,5 +1,5 @@
 package br.padroes.estrutural.proxy;
-public class Cliente {
+public class Main {
 	public static void main(String[] args) {
 		System.out.println("Hacker acessando >(");
 		BancoUsuarios banco = new BancoProxy("Hacker", "1234");
